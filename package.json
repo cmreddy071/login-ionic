@@ -21,6 +21,12 @@
     "@angular/flex-layout": "^8.0.0-beta.26",
     "@angular/forms": "^8.1.0",
     "@angular/material": "^8.0.2",
+     "@angular-devkit/core": "~8.2.2",
+        "@angular-devkit/schematics": "~8.2.2",
+    "@angular/compiler-cli": "~8.2.2",
+    "@angular/compiler": "~8.2.2",
+    "typescript": "~3.5.3"
+
     "@angular/platform-browser": "^8.1.0",
     "@angular/platform-browser-dynamic": "^8.1.0",
     "@angular/router": "^8.1.0",
@@ -50,11 +56,8 @@
   "devDependencies": {
     "@angular-devkit/architect": "~0.801.0",
     "@angular-devkit/build-angular": "~0.801.0",
-    "@angular-devkit/core": "~8.2.2",
-    "@angular-devkit/schematics": "~8.2.2",
+   
     "@angular/cli": "~8.1.0",
-    "@angular/compiler": "~8.2.2",
-    "@angular/compiler-cli": "~8.2.2",
     "@angular/language-service": "~8.1.0",
     "@ionic/angular-toolkit": "~2.0.0",
     "@types/jasmine": "~3.3.13",
@@ -71,7 +74,6 @@
     "protractor": "~5.4.0",
     "ts-node": "~8.3.0",
     "tslint": "~5.18.0",
-    "typescript": "~3.5.3"
   },
   "description": "An Ionic project",
   "cordova": {
